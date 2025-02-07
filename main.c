@@ -3,7 +3,7 @@
 
 int main(void) {
 
-    ejecutarPractica1();
+    //ejecutarPractica1();
     ejecutarPractica2();
 
     return 0;

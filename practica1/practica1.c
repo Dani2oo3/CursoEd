@@ -39,4 +39,3 @@ void ejecutarPractica1() {
     total de bytes del heap 32471 repes (fallo): 80000 * 32471 = 2.597.680.000 bytes = 2.597.680 KB = 2.536.080 MB = 2,536 GB
     */
 }
-

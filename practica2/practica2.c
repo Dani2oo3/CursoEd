@@ -29,7 +29,7 @@ int busquedaBinaria(int *array, int tam, int elem) {
             fin = medio - 1;
         }
     }
-    return -1;
+    return -1; // Elemento no encontrado
 }
 
 int ordenamientoBurbuja (int * array, int tam) {
@@ -99,65 +99,81 @@ int ordenamientoPorMezcla(int *array, int tam) {
     return 0;
 }
 
-void ejecutarPractica2() {
-    int tam = 20000;
-    int array[tam];
+// Funciones para ejecutar la práctica 2
 
-    // Inicializar el array con números aleatorios entre 0 y 999
-    for (int i = 0; i < tam; i++) {
-        array[i] = rand() % 1000;  // Valores aleatorios entre 0 y 999
-    }
-
-    // Imprimir el array original
+void pintarArrayOriginal(int *array, int tam) {
     printf("Array original:\n");
     for (int i = 0; i < tam; i++) {
         printf("%d ", array[i]);
     }
     printf("\n");
+}
 
-    // MEDICIÓN DEL TIEMPO PARA LA BÚSQUEDA SECUENCIAL
-    int elem = 1000; // Elemento a buscar
-    clock_t start = clock();
-    int result = busquedaSecuencia(array, tam, elem);
-    clock_t end = clock();
-    double tiempoBusquedaSecuencial = (double)(end - start) / CLOCKS_PER_SEC;
-    if (result != -1) {
-        printf("Elemento encontrado en la posición %d con busqueda secuencial.\n", result);
-    } else {
-        printf("Elemento no encontrado con busqueda secuencial.\n");
-    }
-    printf("Tiempo de busqueda secuencial: %f segundos.\n", tiempoBusquedaSecuencial);
-
-    // MEDICIÓN DEL TIEMPO PARA LA BÚSQUEDA BINARIA
-    start = clock();
-    result = busquedaBinaria(array, tam, elem);
-    end = clock();
-    double tiempoBusquedaBinaria = (double)(end - start) / CLOCKS_PER_SEC;
-    if (result != -1) {
-        printf("Elemento encontrado en la posición %d con busqueda binaria.\n", result);
-    } else {
-        printf("Elemento no encontrado con busqueda binaria.\n");
-    }
-    printf("Tiempo de busqueda binaria: %f segundos.\n", tiempoBusquedaBinaria);
-
-    // MEDICIÓN DEL TIEMPO PARA EL ORDENAMIENTO POR BURBUJA
-    start = clock();
-    ordenamientoBurbuja(array, tam);  // Utilizando el algoritmo de ordenación por burbuja
-    end = clock();
-    double tiempoOrdenacion = (double)(end - start) / CLOCKS_PER_SEC;
-    printf("Tiempo de ordenacion por burbuja: %f segundos.\n", tiempoOrdenacion);
-
-    // MEDICIÓN DEL TIEMPO PARA EL ORDENAMIENTO POR MEZCLA
-    start = clock();
-    ordenamientoPorMezcla(array, tam);  // Ordenar con mezcla
-    end = clock();
-    double tiempoOrdenamientoMezcla = (double)(end - start) / CLOCKS_PER_SEC;
-    printf("Tiempo de ordenacion por mezcla: %f segundos.\n", tiempoOrdenamientoMezcla);
-
-    // Mostrar el array ordenado
+void pintarArrayOrdenado(int *array, int tam) {
     printf("Array ordenado:\n");
     for (int i = 0; i < tam; i++) {
         printf("%d ", array[i]);
     }
     printf("\n");
+}
+
+void medicionBusquedaSecuencial(int *array, int tam) {
+    int elemSec = 1000; // Elemento a buscar
+    clock_t startSec = clock();
+    int resultSec = busquedaSecuencia(array, tam, elemSec);
+    clock_t endSec = clock();
+    double tiempoBusquedaSecuencial = (double)(endSec - startSec) / CLOCKS_PER_SEC;
+    if (resultSec != -1) {
+        printf("Elemento encontrado en la posición %d con búsqueda secuencial.\n", resultSec);
+    } else {
+        printf("Elemento no encontrado con búsqueda secuencial.\n");
+    }
+    printf("Tiempo de búsqueda secuencial: %f segundos.\n", tiempoBusquedaSecuencial);
+}
+
+void medicionBusquedaBinaria(int *array, int tam) {
+    int elemBin = 1000;
+    clock_t startBin = clock();
+    int resultBin = busquedaBinaria(array, tam, elemBin);
+    clock_t endBin = clock();
+    double tiempoBusquedaBinaria = (double)(endBin - startBin) / CLOCKS_PER_SEC;
+    if (resultBin != -1) {
+        printf("Elemento encontrado en la posición %d con búsqueda binaria.\n", resultBin);
+    } else {
+        printf("Elemento no encontrado con búsqueda binaria.\n");
+    }
+    printf("Tiempo de búsqueda binaria: %f segundos.\n", tiempoBusquedaBinaria);
+}
+
+void ordenarBurbuja(int *array, int tam) {
+    clock_t startBurbuja = clock();
+    ordenamientoBurbuja(array, tam);
+    clock_t endBurbuja = clock();
+    double tiempoOrdenacionBurbuja = (double)(endBurbuja - startBurbuja) / CLOCKS_PER_SEC;
+    printf("Tiempo de ordenación por burbuja: %f segundos.\n", tiempoOrdenacionBurbuja);
+}
+
+void ordenarMezcla(int *array, int tam) {
+    clock_t startMezcla = clock();
+    ordenamientoPorMezcla(array, tam);
+    clock_t endMezcla = clock();
+    double tiempoOrdenamientoMezcla = (double)(endMezcla - startMezcla) / CLOCKS_PER_SEC;
+    printf("Tiempo de ordenación por mezcla: %f segundos.\n", tiempoOrdenamientoMezcla);
+}
+
+void ejecutarPractica2() {
+    int tam = 100000;
+    int array[tam];
+
+    // Inicializar el array con números aleatorios entre 0 y 999
+    for (int i = 0; i < tam; i++) {
+        array[i] = rand() % 1000;
+    }
+
+    pintarArrayOriginal(array, tam);
+    medicionBusquedaSecuencial(array, tam);
+    medicionBusquedaBinaria(array, tam);
+    ordenarBurbuja(array, tam);
+    ordenarMezcla(array, tam);
+    pintarArrayOrdenado(array, tam);
 }

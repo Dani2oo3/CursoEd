@@ -34,11 +34,21 @@ ordenar todos los valores.
 
  */
 
+// Funciones de las busquedas y ordenamientos
 int busquedaSecuencia (int * array, int tam, int elem);
 int busquedaBinaria (int * array, int tam, int elem);
 int ordenamientoBurbuja (int * array, int tam);
 void mezclar(int *array, int *aux, int inicio, int mitad, int fin);
 int ordenamientoPorMezcla (int * array, int tam);
+
+// Funciones para ejecutar la práctica 2
+void pintarArrayOriginal(int *array, int tam);
+void pintarArrayOrdenado(int *array, int tam);
+void medicionBusquedaSecuencial(int *array, int tam);
+void medicionBusquedaBinaria(int *array, int tam);
+void ordenarBurbuja(int *array, int tam);
+void ordenarPorMezcla(int *array, int tam);
+
 void ejecutarPractica2();
 
 #endif
