@@ -4,6 +4,12 @@
 #include <stdio.h>
 
 void ejecutarPractica3() {
+    /*
+    *Dado un circuito RCL en serie y una fuente alterna (ver figura superior) se pide realizar un
+    *programa que permita calcular el potencial en cada uno de los puntos A, B, C y D para valores
+    *coherentes de V0, , C, L y R (por ejemplo 220V, 50Hz, 1.2 µF, 3 mHr, 5 k).
+     */
+
     // Datos del problema
     double V0 = 220;    // Voltaje de la fuente en V
     double nu = 50;     // Frecuencia en Hz
