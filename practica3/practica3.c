@@ -44,4 +44,9 @@ void ejecutarPractica3() {
     printf("Voltaje en R: %.2f + %.2fi V\n", Vr.real, Vr.imag);
     printf("Voltaje en C: %.2f + %.2fi V\n", Vc.real, Vc.imag);
     printf("Voltaje en L: %.2f + %.2fi V\n", Vl.real, Vl.imag);
+
+    printf("Voltaje en A: %.2f + %.2fi V\n", V.real, V.imag); // V0
+    printf("Voltaje en B: %.2f + %.2fi V\n", Restar(Vr, Vc).real, Restar(Vr, Vc).imag);
+    printf("Voltaje en C: %.2f + %.2fi V\n", Restar(V, Vr).real, Restar(V, Vr).imag);
+    printf("Voltaje en D: 0 V"); // 0
 }

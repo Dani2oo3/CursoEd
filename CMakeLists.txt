@@ -8,4 +8,6 @@ add_executable(practicasED main.c
         practica2/practica2.c
         practica3/complejos/complejos.c
         practica3/circuito/circuito.c
-        practica3/practica3.c)
+        practica3/practica3.c
+        practica4/material/bitmap.c
+        practica4/mandelbrot/mandelbrot.c)

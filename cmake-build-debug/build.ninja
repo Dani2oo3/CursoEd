@@ -85,6 +85,18 @@ build CMakeFiles/practicasED.dir/practica3/practica3.c.obj: C_COMPILER__practica
   OBJECT_DIR = CMakeFiles\practicasED.dir
   OBJECT_FILE_DIR = CMakeFiles\practicasED.dir\practica3
 
+build CMakeFiles/practicasED.dir/practica4/material/bitmap.c.obj: C_COMPILER__practicasED_unscanned_Debug C$:/Users/danie/OneDrive/Escritorio/1Año/2cuatri/ED/practicasED/practica4/material/bitmap.c || cmake_object_order_depends_target_practicasED
+  DEP_FILE = CMakeFiles\practicasED.dir\practica4\material\bitmap.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\practicasED.dir
+  OBJECT_FILE_DIR = CMakeFiles\practicasED.dir\practica4\material
+
+build CMakeFiles/practicasED.dir/practica4/mandelbrot/mandelbrot.c.obj: C_COMPILER__practicasED_unscanned_Debug C$:/Users/danie/OneDrive/Escritorio/1Año/2cuatri/ED/practicasED/practica4/mandelbrot/mandelbrot.c || cmake_object_order_depends_target_practicasED
+  DEP_FILE = CMakeFiles\practicasED.dir\practica4\mandelbrot\mandelbrot.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\practicasED.dir
+  OBJECT_FILE_DIR = CMakeFiles\practicasED.dir\practica4\mandelbrot
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target practicasED
@@ -93,7 +105,7 @@ build CMakeFiles/practicasED.dir/practica3/practica3.c.obj: C_COMPILER__practica
 #############################################
 # Link the executable practicasED.exe
 
-build practicasED.exe: C_EXECUTABLE_LINKER__practicasED_Debug CMakeFiles/practicasED.dir/main.c.obj CMakeFiles/practicasED.dir/practica1/practica1.c.obj CMakeFiles/practicasED.dir/practica2/practica2.c.obj CMakeFiles/practicasED.dir/practica3/complejos/complejos.c.obj CMakeFiles/practicasED.dir/practica3/circuito/circuito.c.obj CMakeFiles/practicasED.dir/practica3/practica3.c.obj
+build practicasED.exe: C_EXECUTABLE_LINKER__practicasED_Debug CMakeFiles/practicasED.dir/main.c.obj CMakeFiles/practicasED.dir/practica1/practica1.c.obj CMakeFiles/practicasED.dir/practica2/practica2.c.obj CMakeFiles/practicasED.dir/practica3/complejos/complejos.c.obj CMakeFiles/practicasED.dir/practica3/circuito/circuito.c.obj CMakeFiles/practicasED.dir/practica3/practica3.c.obj CMakeFiles/practicasED.dir/practica4/material/bitmap.c.obj CMakeFiles/practicasED.dir/practica4/mandelbrot/mandelbrot.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\practicasED.dir
