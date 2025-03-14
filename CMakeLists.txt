@@ -10,4 +10,11 @@ add_executable(practicasED main.c
         practica3/circuito/circuito.c
         practica3/practica3.c
         practica4/material/bitmap.c
-        practica4/mandelbrot/mandelbrot.c)
+        practica4/mandelbrot/mandelbrot.c
+        practicaListas/tiposListas/listaDoblementeEnlazada.c
+        practicaListas/elemento/elemento.c
+        practicaListas/tiposListas/listaEnlazada.c
+        practicaListas/ejecutarPractica/practicaListas.c
+        practica5/practica5/listaEnlazadaNoticia.c
+        practica5/noticia/noticia.c
+        practica5/practica5/listaEnlazadaNoticia.h)

@@ -44,7 +44,6 @@ int ordenamientoBurbuja (int * array, int tam) {
         }
     }
     return 0;
-
 }
 
 void mezclar(int *array, int *aux, int inicio, int mitad, int fin) {

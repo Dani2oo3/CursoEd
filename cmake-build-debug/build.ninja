@@ -97,6 +97,42 @@ build CMakeFiles/practicasED.dir/practica4/mandelbrot/mandelbrot.c.obj: C_COMPIL
   OBJECT_DIR = CMakeFiles\practicasED.dir
   OBJECT_FILE_DIR = CMakeFiles\practicasED.dir\practica4\mandelbrot
 
+build CMakeFiles/practicasED.dir/practicaListas/tiposListas/listaDoblementeEnlazada.c.obj: C_COMPILER__practicasED_unscanned_Debug C$:/Users/danie/OneDrive/Escritorio/1Año/2cuatri/ED/practicasED/practicaListas/tiposListas/listaDoblementeEnlazada.c || cmake_object_order_depends_target_practicasED
+  DEP_FILE = CMakeFiles\practicasED.dir\practicaListas\tiposListas\listaDoblementeEnlazada.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\practicasED.dir
+  OBJECT_FILE_DIR = CMakeFiles\practicasED.dir\practicaListas\tiposListas
+
+build CMakeFiles/practicasED.dir/practicaListas/elemento/elemento.c.obj: C_COMPILER__practicasED_unscanned_Debug C$:/Users/danie/OneDrive/Escritorio/1Año/2cuatri/ED/practicasED/practicaListas/elemento/elemento.c || cmake_object_order_depends_target_practicasED
+  DEP_FILE = CMakeFiles\practicasED.dir\practicaListas\elemento\elemento.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\practicasED.dir
+  OBJECT_FILE_DIR = CMakeFiles\practicasED.dir\practicaListas\elemento
+
+build CMakeFiles/practicasED.dir/practicaListas/tiposListas/listaEnlazada.c.obj: C_COMPILER__practicasED_unscanned_Debug C$:/Users/danie/OneDrive/Escritorio/1Año/2cuatri/ED/practicasED/practicaListas/tiposListas/listaEnlazada.c || cmake_object_order_depends_target_practicasED
+  DEP_FILE = CMakeFiles\practicasED.dir\practicaListas\tiposListas\listaEnlazada.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\practicasED.dir
+  OBJECT_FILE_DIR = CMakeFiles\practicasED.dir\practicaListas\tiposListas
+
+build CMakeFiles/practicasED.dir/practicaListas/ejecutarPractica/practicaListas.c.obj: C_COMPILER__practicasED_unscanned_Debug C$:/Users/danie/OneDrive/Escritorio/1Año/2cuatri/ED/practicasED/practicaListas/ejecutarPractica/practicaListas.c || cmake_object_order_depends_target_practicasED
+  DEP_FILE = CMakeFiles\practicasED.dir\practicaListas\ejecutarPractica\practicaListas.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\practicasED.dir
+  OBJECT_FILE_DIR = CMakeFiles\practicasED.dir\practicaListas\ejecutarPractica
+
+build CMakeFiles/practicasED.dir/practica5/practica5/listaEnlazadaNoticia.c.obj: C_COMPILER__practicasED_unscanned_Debug C$:/Users/danie/OneDrive/Escritorio/1Año/2cuatri/ED/practicasED/practica5/practica5/listaEnlazadaNoticia.c || cmake_object_order_depends_target_practicasED
+  DEP_FILE = CMakeFiles\practicasED.dir\practica5\practica5\listaEnlazadaNoticia.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\practicasED.dir
+  OBJECT_FILE_DIR = CMakeFiles\practicasED.dir\practica5\practica5
+
+build CMakeFiles/practicasED.dir/practica5/noticia/noticia.c.obj: C_COMPILER__practicasED_unscanned_Debug C$:/Users/danie/OneDrive/Escritorio/1Año/2cuatri/ED/practicasED/practica5/noticia/noticia.c || cmake_object_order_depends_target_practicasED
+  DEP_FILE = CMakeFiles\practicasED.dir\practica5\noticia\noticia.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\practicasED.dir
+  OBJECT_FILE_DIR = CMakeFiles\practicasED.dir\practica5\noticia
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target practicasED
@@ -105,7 +141,7 @@ build CMakeFiles/practicasED.dir/practica4/mandelbrot/mandelbrot.c.obj: C_COMPIL
 #############################################
 # Link the executable practicasED.exe
 
-build practicasED.exe: C_EXECUTABLE_LINKER__practicasED_Debug CMakeFiles/practicasED.dir/main.c.obj CMakeFiles/practicasED.dir/practica1/practica1.c.obj CMakeFiles/practicasED.dir/practica2/practica2.c.obj CMakeFiles/practicasED.dir/practica3/complejos/complejos.c.obj CMakeFiles/practicasED.dir/practica3/circuito/circuito.c.obj CMakeFiles/practicasED.dir/practica3/practica3.c.obj CMakeFiles/practicasED.dir/practica4/material/bitmap.c.obj CMakeFiles/practicasED.dir/practica4/mandelbrot/mandelbrot.c.obj
+build practicasED.exe: C_EXECUTABLE_LINKER__practicasED_Debug CMakeFiles/practicasED.dir/main.c.obj CMakeFiles/practicasED.dir/practica1/practica1.c.obj CMakeFiles/practicasED.dir/practica2/practica2.c.obj CMakeFiles/practicasED.dir/practica3/complejos/complejos.c.obj CMakeFiles/practicasED.dir/practica3/circuito/circuito.c.obj CMakeFiles/practicasED.dir/practica3/practica3.c.obj CMakeFiles/practicasED.dir/practica4/material/bitmap.c.obj CMakeFiles/practicasED.dir/practica4/mandelbrot/mandelbrot.c.obj CMakeFiles/practicasED.dir/practicaListas/tiposListas/listaDoblementeEnlazada.c.obj CMakeFiles/practicasED.dir/practicaListas/elemento/elemento.c.obj CMakeFiles/practicasED.dir/practicaListas/tiposListas/listaEnlazada.c.obj CMakeFiles/practicasED.dir/practicaListas/ejecutarPractica/practicaListas.c.obj CMakeFiles/practicasED.dir/practica5/practica5/listaEnlazadaNoticia.c.obj CMakeFiles/practicasED.dir/practica5/noticia/noticia.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\practicasED.dir
@@ -120,7 +156,7 @@ build practicasED.exe: C_EXECUTABLE_LINKER__practicasED_Debug CMakeFiles/practic
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\danie\OneDrive\Escritorio\1Año\2cuatri\ED\practicasED\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\danie\OneDrive\Escritorio\1Año\2cuatri\ED\practicasED\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -131,7 +167,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\danie\OneDrive\Escritorio\1Año\2cuatri\ED\practicasED\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\danie\OneDrive\Escritorio\1Año\2cuatri\ED\practicasED -BC:\Users\danie\OneDrive\Escritorio\1Año\2cuatri\ED\practicasED\cmake-build-debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\danie\OneDrive\Escritorio\1Año\2cuatri\ED\practicasED\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\danie\OneDrive\Escritorio\1Año\2cuatri\ED\practicasED -BC:\Users\danie\OneDrive\Escritorio\1Año\2cuatri\ED\practicasED\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
